@@ -27,10 +27,11 @@
     "url": "https://github.com/overlookjs/plugin-bundle/issues"
   },
   "dependencies": {
-    "@overlook/plugin": "^0.4.1"
+    "@overlook/plugin": "^0.4.1",
+    "@overlook/plugin-build": "^0.1.3",
+    "@overlook/route": "^0.6.5"
   },
   "devDependencies": {
-    "@overlook/route": "^0.6.5",
     "@overlookmotel/eslint-config": "^7.2.1",
     "@overlookmotel/eslint-config-jest": "^4.1.1",
     "@overlookmotel/eslint-config-node": "^2.1.2",

@@ -10,5 +10,8 @@ import bundlePlugin from '../lib/index.js';
 
 export default bundlePlugin;
 export const {
-	TEMP
+	ENTRY_FILES,
+	CALLBACKS,
+	BUNDLE,
+	BUNDLE_ADD_ENTRY
 } = bundlePlugin;

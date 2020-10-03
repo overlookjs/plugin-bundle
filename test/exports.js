@@ -11,17 +11,12 @@
 // Exports
 
 module.exports = function itExports(bundlePlugin) {
-	describe.skip('methods', () => { // eslint-disable-line jest/no-disabled-tests
-		it.each([
-			'TEMP'
-		])('%s', (key) => {
-			expect(bundlePlugin[key]).toBeFunction();
-		});
-	});
-
 	describe('symbols', () => {
 		it.each([
-			'TEMP'
+			'ENTRY_FILES',
+			'CALLBACKS',
+			'BUNDLE',
+			'BUNDLE_ADD_ENTRY'
 		])('%s', (key) => {
 			expect(typeof bundlePlugin[key]).toBe('symbol');
 		});
